@@ -1,8 +1,3 @@
-ul {
-   
-   
-}
-
 h2 {
     font-style: italic;
 }
@@ -10,10 +5,13 @@ body{
     display: flex;
 }
 .min {
-    background-color: antiquewhite;
-    
+    background-color:#f5ccd5;
     height:100vh;
-    
+    width: 18vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 section {
     display:inline;
@@ -34,14 +32,79 @@ section {
 .des-subtext {
     font-size: 13px;
     color: black;
-
 }
 
-
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
 .section1{
-    margin: 10px;
+    margin: 15px;
 }
 
 .section2{
+    margin: 10px;
+}
+.me-img{
+    width: 128px;
+    height: 160px;
+}
+
+.logo-img{
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+}
+.logo3-img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+.logo2-img{
+    width: 45px;
+    height: 40px;
+    margin: 0 10px;
+}
+.float-wrap{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    padding: 0 0 0 20px;
+}
+.menu-list{
+    width: 16vw;
+    margin: 20px 0;
+}
+.main-contents{
+    width: 150px;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+.desc-subtext2{
+    line-height: 35px;
+}
+.section2-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 36px 20px;
+}
+.desc-text2{
+    font-size:16px;
+    font-weight: bold;
+    color: #282828;
+    height: 40px;
+    line-height: 35px;
+}
+.menu-item{
     margin: 10px;
 }
